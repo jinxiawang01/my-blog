@@ -185,6 +185,99 @@ export const portfolioProjects: PortfolioProject[] = [
         ]
       }
     ]
+  },
+  {
+    id: '04',
+    title: 'HealingBox',
+    slug: 'healingbox',
+    discipline: 'Emotional Wellness',
+    summary: 'A personalized emotional care box.',
+    image: '/portfolio/healingbox/cover.jpg',
+    href: '/portfolio/healingbox',
+    year: '2025',
+    date: 'April 24, 2025',
+    role: 'Product concept, interaction design, prototype',
+    tools: ['Figma'],
+    sections: [
+      {
+        eyebrow: 'Overview',
+        title: 'Turn emotional states into a tailored care box.',
+        body: [
+          'HealingBox is a digital wellbeing concept that recommends a personalized emotional care box after a short mood check-in. The box may contain a sound, a song, a short reading, an object, or a gentle message from a stranger.',
+          'The goal is to make support feel specific, warm, and easy to receive when someone is anxious, tired, or simply needs a small reset.'
+        ]
+      },
+      {
+        eyebrow: 'Positioning',
+        title: 'Designed for people who want comfort without having to explain themselves.',
+        body: [
+          'The product is aimed at young adults who are emotionally sensitive, stress-prone, and drawn to ritual, self-care, and soft-spoken product experiences. It focuses on the feeling of being understood rather than on a heavy therapeutic system.',
+          'It helps users get relief when they feel low, lost, or overwhelmed, and it offers a lightweight way to choose something that feels good without overthinking the decision.'
+        ],
+        media: [{ src: '/portfolio/healingbox/scenarios.png', alt: 'HealingBox scenarios', caption: 'Scenario map' }]
+      },
+      {
+        eyebrow: 'Prototype',
+        title: 'Explore personalized box states and more box variations.',
+        body: [
+          'The prototype shows how the system can adapt the recommended box to different emotional conditions and present alternative box options with different content and tone.'
+        ],
+        media: [
+          { src: '/portfolio/healingbox/personalized.gif', alt: 'HealingBox personalized box', caption: 'Personalized gift boxes', type: 'gif' },
+          { src: '/portfolio/healingbox/options.gif', alt: 'HealingBox more box options', caption: 'More box options', type: 'gif' }
+        ]
+      },
+      {
+        eyebrow: 'Business',
+        title: 'Possible commercialization paths.',
+        body: [
+          'Potential revenue streams include tiered subscriptions, commission from delivered products, partner voucher sharing, and themed co-branded boxes with IPs, illustrators, or niche brands.'
+        ]
+      }
+    ]
+  },
+  {
+    id: '05',
+    title: 'easyPic',
+    slug: 'easypic',
+    discipline: 'AI Image Editing',
+    summary: 'A natural-language image editor.',
+    image: '/portfolio/easypic/cover.jpg',
+    href: '/portfolio/easypic',
+    year: '2025',
+    date: 'March 21, 2025',
+    role: 'Product concept, interaction design, prototype',
+    tools: ['Figma'],
+    sections: [
+      {
+        eyebrow: 'Overview',
+        title: 'Edit images by describing the result.',
+        body: [
+          'easyPic is an image-editing concept built around natural-language understanding. Users upload a photo, type the change they want, and the system interprets the request before rendering an edited result.',
+          'The idea is to make image editing feel closer to conversation than to manual tool hunting, so people can focus on intent instead of sliders and menus.'
+        ]
+      },
+      {
+        eyebrow: 'Idea',
+        title: 'A simpler editing flow for people who do not want to learn image software.',
+        body: [
+          'The workflow borrows from recent AI image tools while aiming for a calmer, more direct interface. It supports edits such as style shifts, portrait enhancement, pose adjustment, photo repair, and mood-based filtering.'
+        ],
+        media: [{ src: '/portfolio/easypic/workflow.png', alt: 'easyPic workflow', caption: 'Workflow map' }]
+      },
+      {
+        eyebrow: 'Prototype',
+        title: 'From upload to parameters to multiple AI results.',
+        body: [
+          'The prototype covers the home recommendation feed, creating a new image edit, setting edit parameters, running AI analysis and redraw, and reviewing multiple generated outcomes.'
+        ],
+        media: [
+          { src: '/portfolio/easypic/home.gif', alt: 'easyPic home feed', caption: 'Community inspiration feed', type: 'gif' },
+          { src: '/portfolio/easypic/edit.gif', alt: 'easyPic edit flow', caption: 'Create and edit an image', type: 'gif' },
+          { src: '/portfolio/easypic/results.gif', alt: 'easyPic result generation', caption: 'Analyze and redraw results', type: 'gif' }
+        ]
+      }
+    ]
   }
 ]
 
