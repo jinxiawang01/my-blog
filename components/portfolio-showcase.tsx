@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react'
 import type { PortfolioProject } from '@/lib/portfolio'
 
 export function PortfolioShowcase({ projects }: { projects: PortfolioProject[] }) {
-  const [activeIndex, setActiveIndex] = useState(Math.min(1, Math.max(0, projects.length - 1)))
+  const [activeIndex, setActiveIndex] = useState(Math.max(0, Math.floor(projects.length / 2)))
 
   const orderedProjects = useMemo(() => {
     if (!projects.length) return []
