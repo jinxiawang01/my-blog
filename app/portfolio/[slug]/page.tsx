@@ -19,7 +19,7 @@ export default function PortfolioDetailPage({ params }: { params: { slug: string
   if (!project) notFound()
 
   return (
-    <main className="portfolio-detail">
+    <main className={`portfolio-detail project-${project.slug}`}>
       <section className="portfolio-detail-hero">
         <h1>{project.title}</h1>
         <p className="portfolio-detail-date">{project.date}</p>
@@ -28,7 +28,7 @@ export default function PortfolioDetailPage({ params }: { params: { slug: string
       <div className="portfolio-detail-sections">
         {project.sections.map((section) => (
           <section
-            className={`portfolio-case-section ${section.media?.length ? 'has-media' : 'is-text-only'}`}
+            className={`portfolio-case-section ${section.media?.length ? 'has-media' : 'is-text-only'} ${section.media?.length === 1 ? 'has-single-media' : ''}`}
             key={`${project.slug}-${section.title}`}
           >
             <div className="portfolio-case-copy">
