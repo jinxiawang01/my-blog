@@ -5,7 +5,10 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Jinxia Wang Portfolio',
-  description: 'Ideas, projects, and writing from Jinxia Wang.'
+  description: 'Ideas, projects, and writing from Jinxia Wang.',
+  icons: {
+    icon: '/favicon.svg'
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
